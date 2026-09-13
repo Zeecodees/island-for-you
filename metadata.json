@@ -1,0 +1,6 @@
+{
+  "name": "Floating Islands Adventure",
+  "description": "A 3D stylized platformer and puzzle game inspired by whimsical floating island exploration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

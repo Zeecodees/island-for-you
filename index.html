@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Floating Islands Adventure</title>
+    <meta name="description" content="A 3D stylized platformer and puzzle game inspired by whimsical floating island exploration." />
+    <meta property="og:title" content="Floating Islands Adventure" />
+    <meta property="og:description" content="A 3D stylized platformer and puzzle game inspired by whimsical floating island exploration." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          var _origFetch = typeof window !== 'undefined' ? window.fetch : null;
+          if (_origFetch) {
+            var _currentFetch = _origFetch;
+            Object.defineProperty(window, 'fetch', {
+              get: function() {
+                return _currentFetch;
+              },
+              set: function(fn) {
+                _currentFetch = fn;
+              },
+              configurable: true,
+              enumerable: true
+            });
+          }
+        } catch (err) {
+          // Graceful fallback
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
